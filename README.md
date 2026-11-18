@@ -10,9 +10,7 @@
 > An end-to-end clinical AI app that turns a person's health numbers — A1C, blood pressure, cholesterol, eating habits and medicines — into a **predicted 3-month A1C change** and a **plain-English action plan** they can actually follow.
 >
 > **Built at [ChiEAC](https://www.chieac.org/) (Chicago Education Advocacy Cooperative) · Healthcare Data Analyst · 🔗 [Live Demo](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)**
- 
-> ⚠️ **Prototype.** Trained on **synthetic data**, for education only. NutriPath does not replace advice from a doctor or diabetes educator.
- 
+  
 <!-- Screenshots:
 ![Population dashboard](docs/screenshot-dashboard.png)
 ![Personal plan](docs/screenshot-plan.png)
