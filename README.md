@@ -20,15 +20,15 @@
  
 ## 🎯 Problem Statement
  
-More than 38 million Americans live with diabetes, and diet is one of the most effective, lowest-cost tools for managing it. Yet most patients leave a diagnosis with a generic pamphlet — not a plan tied to their own numbers.
+More than 38 million Americans live with diabetes, and diet is one of the most effective, lowest-cost tools for managing it. However, most patients leave a diagnosis with a generic pamphlet, rather than a personalized plan tied to their health history.
  
 | Pain Point | How NutriPath Addresses It |
 |---|---|
 | **Generic advice:** Guidance isn't tied to the patient's labs, medicines or habits | Personalized plan built from 41 clinical, lifestyle and medication features |
-| **No sense of progress:** Patients can't see how their choices affect A1C | Predicts the 3-month A1C change and shows it on a "now vs. 3 months" ruler |
+| **No sense of progress:** Patients can't see how their choices affect A1C levels | Predicts the 3-month A1C change and shows it on a "now vs. 3 months" ruler |
 | **Hard-to-read numbers:** Lab reports and visit summaries are confusing | Built-in help on where to find each number, and plans written at a 6th-grade reading level |
 | **AI safety risk:** LLMs can invent or soften medical advice | Clinical logic and safety notes live in rules; the LLM only writes the explanation |
-| **Privacy constraints:** Real patient data is HIPAA-protected | 100K synthetic patients; the app stores nothing |
+| **Privacy constraints:** Real patient data is HIPAA-protected | 100K patients; the app stores nothing |
  
 ---
  
@@ -62,9 +62,9 @@ flowchart LR
  
 ## 🔬 Pipeline Walkthrough
  
-**1. Data engineering (Databricks).** A 100,000-patient synthetic diabetes dataset, generated with numpy and scipy so no real patient data is involved, flows through a **Bronze → Silver → Gold medallion pipeline** stored as Delta tables in Unity Catalog. Deduplication, type casting and feature engineering happen inside the pipeline.
+**1. Data Engineering (Databricks).** A 100,000-patient synthetic diabetes dataset, generated with numpy and scipy so no real patient data is involved, flows through a **Bronze → Silver → Gold medallion pipeline** stored as Delta tables in Unity Catalog. Deduplication, type casting and feature engineering happen inside the pipeline.
  
-**2. Predictive model (XGBoost + MLflow).** An XGBoost regressor predicts the 3-month A1C reduction from **41 features**: labs, vitals, lifestyle, medicines, comorbidities and engineered features such as carb-load ratio. It reaches **R² ≈ 0.91** on a held-out split of the synthetic data. The model is exported as plain JSON, so the live app doesn't depend on Databricks or MLflow.
+**2. Predictive Modeling (XGBoost + MLflow).** An XGBoost regressor predicts the 3-month A1C reduction from **41 features**: labs, vitals, lifestyle, medicines, comorbidities and engineered features such as carb-load ratio. It reaches **R² ≈ 0.91** on a held-out split of the synthetic data. The model is exported as plain JSON, so the live app doesn't depend on Databricks or MLflow.
  
 **3. Layer 1 — Rules engine (no AI).** Transparent Python rules check the patient's numbers against guideline targets (A1C 7%, blood pressure 130/80, LDL 100, triglycerides 150) and write the clinical findings and medication and condition safety notes.
  
@@ -92,12 +92,12 @@ flowchart LR
  
 | Category | Tools |
 |---|---|
-| **Data engineering** | Databricks, PySpark, Delta Lake, Unity Catalog |
-| **Data generation & wrangling** | Python, pandas, NumPy, SciPy |
-| **Machine learning** | XGBoost, MLflow |
-| **LLM layer** | Groq API — `qwen/qwen3.8-27b` (primary), `llama-3.3-70b-versatile` and `llama-3.1-8b-instant` (fallbacks) |
-| **App & visualization** | Streamlit, Plotly |
-| **Deployment** | GitHub, Streamlit Community Cloud |
+| **Data Engineering** | Databricks, PySpark, Delta Lake, Unity Catalog |
+| **Data Generation & Wrangling** | Python, Pandas, NumPy, SciPy |
+| **Machine Learning** | XGBoost, MLflow |
+| **LLM Layer** | Groq API — `qwen/qwen3.8-27b` (primary), `llama-3.3-70b-versatile` and `llama-3.1-8b-instant` (fallbacks) |
+| **App & Data Visualization** | Streamlit, Plotly |
+| **Deployment** | Streamlit Community Cloud |
  
 ---
  
