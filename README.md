@@ -170,8 +170,5 @@ NutriPath shows the full path from raw data to a live, public clinical AI app �
 ```
  
 ---
- 
-*Built by **Sriram Srinivasan**, Data Science Fellow at ChiEAC · [GitHub](https://github.com/SriramSrinivasan1) · [LinkedIn](https://www.linkedin.com/in/sriram-srinivasan00/)*
- 
-*NutriPath is a prototype built on synthetic data, for education only. It does not diagnose, treat or replace advice from a doctor or diabetes educator.*
- 
+
+*NutriPath is a prototype built on synthetic data, for education purposes only. It does not diagnose, treat or replace advice from a healthcare professional.*
