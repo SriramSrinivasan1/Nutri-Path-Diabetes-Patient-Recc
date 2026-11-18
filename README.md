@@ -11,12 +11,21 @@
 >
 > **Built at [ChiEAC](https://www.chieac.org/) (Chicago Education Advocacy Cooperative) · Healthcare Data Analyst · 🔗 [Live Demo](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)**
   
-<!-- Screenshots:
-![Population dashboard](docs/screenshot-dashboard.png)
-![Personal plan](docs/screenshot-plan.png)
--->
- 
----
+## 📸 Demo
+**📊 Population Dashboard** — Filterable analytics across 100,000 synthetic patients. Shows the A1C distribution and how the predicted 3-month A1C drop varies by eating style, activity level and motivation, so a care team can see which groups stand to benefit most.
+<p align="center">
+  <img width="800" alt="NutriPath population dashboard showing A1C distribution and predicted A1C reduction across 100,000 synthetic patients" src="https://github.com/user-attachments/assets/8ce06256-9038-41e7-a607-d7144950bdec" />
+</p>
+
+**🎯 Personalized Plan Output** — The A1C ruler compares today's A1C with the 3-month prediction, alongside a risk tier. Below it, the rules engine's findings are turned into plain-English cards: 3 weekly priorities, a sample day of eating, a movement plan, sleep tips and questions to bring to the doctor.
+<p align="center">
+  <img width="800" alt="NutriPath personal plan form with built-in help on where to find each health number" src="https://github.com/user-attachments/assets/260b225e-c01b-416e-afcc-e07c07df1e55" />
+</p>
+
+**📝 Personal Plan Form** — The patient enters their numbers, with built-in tips on where to find each one (lab report, pill bottle, visit summary). Safety notes for insulin, GLP-1 medicines and kidney disease appear before any recommendations.
+<p align="center">
+  <img width="800" alt="NutriPath A1C ruler and plan cards with weekly priorities, sample meals, movement and sleep tips" src="https://github.com/user-attachments/assets/dd4780e2-2bae-49ef-839c-9707b52f9a6d" />
+</p>
  
 ## 🎯 Problem Statement
  
