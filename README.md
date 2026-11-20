@@ -15,7 +15,7 @@
 > 
 > 🎥 **[Watch the 5-minute demo](https://www.loom.com/share/dc8f5f61730e463e8267491a98cdd8a9)**
   
-## 📸 Demo
+## 📸 Screenshots Demo
 **📊 Population Dashboard** — Filterable analytics across 100,000 synthetic patients. Shows the A1C distribution and how the predicted 3-month A1C drop varies by eating style, activity level and motivation, so a care team can see which groups stand to benefit most.
 <p align="center">
   <img width="800" alt="NutriPath population dashboard showing A1C distribution and predicted A1C reduction across 100,000 synthetic patients" src="https://github.com/user-attachments/assets/8ce06256-9038-41e7-a607-d7144950bdec" />
