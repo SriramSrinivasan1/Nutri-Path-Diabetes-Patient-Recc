@@ -9,8 +9,10 @@
  
 > An end-to-end clinical AI app that turns a person's health numbers — A1C, blood pressure, cholesterol, eating habits and medicines — into a **predicted 3-month A1C change** and a **plain-English action plan** they can actually follow.
 >
-> **Built at [ChiEAC](https://www.chieac.org/) (Chicago Education Advocacy Cooperative) · Healthcare Data Analyst
-> 🔗 [Live Demo](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)**
+> **Built at [ChiEAC](https://www.chieac.org/) (Chicago Education Advocacy Cooperative) · Healthcare Data Analyst**
+> 
+> 🔗 **[Live Demo](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)**
+> 
 > 🎥 **[Watch the 5-minute demo](https://www.loom.com/share/dc8f5f61730e463e8267491a98cdd8a9)**
   
 ## 📸 Demo
