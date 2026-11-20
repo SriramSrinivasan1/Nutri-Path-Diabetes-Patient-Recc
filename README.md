@@ -11,7 +11,7 @@
 >
 > **Built at [ChiEAC](https://www.chieac.org/) (Chicago Education Advocacy Cooperative) · Healthcare Data Analyst**
 > 
-> 🔗 **[Live Demo](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)**
+> 🔗 **[Live Streamlit App Demo](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)**
 > 
 > 🎥 **[Watch the 5-minute demo](https://www.loom.com/share/dc8f5f61730e463e8267491a98cdd8a9)**
   
