@@ -1,4 +1,4 @@
-# 🥗 NutriPath — Food-as-Medicine Recommendations for Type 2 Diabetes
+# 🥗 NutriPath: Food-as-Medicine Recommendations for Type 2 Diabetes
  
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -9,7 +9,9 @@
  
 > An end-to-end clinical AI app that turns a person's health numbers — A1C, blood pressure, cholesterol, eating habits and medicines — into a **predicted 3-month A1C change** and a **plain-English action plan** they can actually follow.
 >
-> **Built at [ChiEAC](https://www.chieac.org/) (Chicago Education Advocacy Cooperative) · Healthcare Data Analyst · 🔗 [Live Demo](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)**
+> **Built at [ChiEAC](https://www.chieac.org/) (Chicago Education Advocacy Cooperative) · Healthcare Data Analyst
+> 🔗 [Live Demo](https://nutri-path-diabetes-patient-recc-7dft5egcvolpzoks4wzwtb.streamlit.app/)**
+> 🎥 **[Watch the 5-minute demo](https://www.loom.com/share/dc8f5f61730e463e8267491a98cdd8a9)**
   
 ## 📸 Demo
 **📊 Population Dashboard** — Filterable analytics across 100,000 synthetic patients. Shows the A1C distribution and how the predicted 3-month A1C drop varies by eating style, activity level and motivation, so a care team can see which groups stand to benefit most.
